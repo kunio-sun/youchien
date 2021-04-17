@@ -1,0 +1,143 @@
+@media screen and (max-width: 1280px){
+  .contents_three_cut1{
+    display: none;
+  }
+  .contents_three_cut2{
+    display: none;
+  }
+  .contents_three_cut3{
+    display: none;
+  }
+
+}
+@media screen and (max-width: 720px){
+.sec_news{
+
+  & .news_wrap{
+    & .swiper-container{
+      & .swiper-pagination{
+        display: block;
+      }
+      & .swiper-wrapper{
+        & .swiper-slide{
+          & .news_img_zone{
+            height: 260px;
+          }
+        }
+      }
+    }
+
+  }
+}
+}
+@media screen and (max-width: 960px){
+  // ---sec firstView-----------------------
+  .firstView{
+    background-color: #F3FAFF;
+    & .first_left_balloon{
+      left: -10px;
+    }
+    & .first_right_balloon{
+      right: -8px;
+    }
+    & .imgWrap .box{
+      height: 60vh;
+      width: clamp(330px , 80% , 80%);
+    }
+  }// end firstView
+
+  // ---sec contents-----------------------
+  .content{
+    & .content_head{
+      & .content_airplane{
+        width: clamp(40px,20%,20%);
+        bottom: 90%;
+        transform: translateY(100%);
+      }
+      & .content_skyBall{
+        width: clamp(40px,9%,9%);
+        bottom: 85%;
+        transform: translateY(100%);
+      }
+      & .content_left_cloud{
+      width: clamp(40px,20%,20%);
+      bottom: 80%;
+      transform: translateY(100%);
+      }
+      & .content_right_cloud{
+      width: clamp(40px,22%,22%);
+      bottom: 80%;
+      transform: translateY(100%);
+      }
+    }
+
+    & .content_three{
+      & .content_three_pin{
+        width: clamp(400px , 70% ,500px);
+      }
+    }
+    & .content_links{
+      & .content_link{
+        width: 40%;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+    }
+  }// end sec content
+
+  // ---sec intro--------------------
+  .sec_intro{
+    & .intro_train{
+      position: absolute;
+      left: 6%;
+      bottom: 0;
+      width: 240px
+    }
+  & .intro_forest{
+    width: 100px;
+    right: 8px;
+  }
+    & .intro_wrap{
+      & .intro_point{
+        margin: 24px 0;
+        width: 100%;
+        min-height: 280px;
+        & .img_wrap{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 50%;
+
+          & img{
+            width: 90%;
+            padding-right: 6%;
+          }
+        }
+        & .intro_texts{
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          width: 50%;
+
+          & h2{
+            font-size: 1.4rem;
+            text-align-last: left;
+          }
+          & p{
+            padding-top: 8px;
+          }
+        }
+      }
+    }
+  }
+  // ---sec pamphlet-------------------------------
+.sec_pamphlet{
+  & .pamphlet_wrap{
+    & .pamphlet_description{
+      font-size: 1rem;
+    }
+  }
+}
+
+
+}// end media query
