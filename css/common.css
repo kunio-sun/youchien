@@ -803,6 +803,11 @@ header section p {
   width: 100%;
 }
 
+.sec_pamphlet .pamphlet_wrap div a .number {
+  text-decoration: none;
+  color: #666;
+}
+
 .sec_pamphlet .pamphlet_wrap .pamphlet_tel {
   display: -webkit-box;
   display: -ms-flexbox;

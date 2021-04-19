@@ -633,6 +633,10 @@ header {
           display: inline-block;
           width: 100%;
         }
+        & .number {
+          text-decoration: none;
+          color: #666;
+        }
       }
     }
     & .pamphlet_tel {
